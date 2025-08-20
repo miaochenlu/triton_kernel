@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(claude --version)",
+      "Bash(journalctl:*)",
+      "Bash(nvim:*)",
+      "Bash(grep:*)",
+      "Bash(make:*)",
+      "Bash(claude --print \"test\")",
+      "Bash(claude --debug)",
+      "Bash(claude --print \"Hello, testing after config fix\")",
+      "Bash(claude:*)",
+      "Bash(timeout:*)",
+      "Bash(mv:*)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "/home/cmiao/.config/nvim",
+      "/home/scratch.cmiao_gpu/.local/share/nvim/lazy/avante.nvim",
+      "/home/scratch.cmiao_gpu/.local/share/nvim/lazy/LazyVim",
+      "/home/scratch.cmiao_gpu/.local/share/nvim/lazy/blink.cmp",
+      "/tmp"
+    ]
+  }
+}
