@@ -1,0 +1,3 @@
+[submodule "triton-puzzles"]
+	path = triton-puzzles
+	url = https://github.com/miaochenlu/Triton-Puzzles-Lite.git
